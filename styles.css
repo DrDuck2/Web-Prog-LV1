@@ -1,0 +1,775 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+h4{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin:0;
+}
+
+h3{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin:0;
+}
+
+h2{
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight:600;
+    padding: 0;
+    margin:0;
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 64px;
+    font-weight: 600;
+    padding: 0;
+    margin:0;
+}
+
+.purpleHighlight{
+    color:#5E3BEE;
+}
+
+button:hover{
+    background-color: #5E3BEE;
+    color:#FFFFFF;
+}
+
+
+
+/* Header Styles */
+
+header{
+    height: 120px;
+}
+
+header .Navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height:100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header img{
+    height: 42px;
+    width: auto;
+}
+
+header .Navbar ul{
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width:350px;
+}
+
+header .Navbar ul a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color:black;
+    font-family: "Roboto";
+}
+
+button{
+    background-color: #FFFFFF;
+    color: #5E3BEE;
+    cursor: pointer;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto";
+    border-color: #5E3BEE;
+    border-radius: 3px;
+    width: 105px;
+    border-width: 1px;
+}
+
+
+/* Home Styles*/
+
+
+.HomePage{
+    background-color: #F5FCFF;
+}
+
+.HomePageContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    padding: 6vw 2vw 6vw 2vw;
+}
+
+.MyImage img{
+    width: 45vw;
+    height:auto;
+}
+
+.MyText h1{
+    padding-top: 1.5vw;
+    padding-bottom:1vw;
+}
+
+.MyText button{
+    margin-top: 3vw;
+}
+
+
+/* My Expertise Styles */
+
+.SkillsContainer{
+    padding: 50px 20px 50px 20px;
+}
+
+.SkillsContainer h1{
+    padding-top: 1vw;
+    padding-bottom:5vw;
+}
+
+.CardsContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CardsContainer .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    background-color: #F5FCFF;
+    margin: 3vw;
+    padding: 2vw;
+    border-radius: 10px;
+    border-bottom: 3px;
+    border-bottom: 2px solid transparent; 
+}
+
+.CardsContainer .card:first-child{
+    margin-left: 0;
+}
+
+.CardsContainer .card:last-child{
+    margin-right:0;
+}
+
+.CardsContainer .card:hover{
+    border-bottom-color: #5E3BEE;
+}
+
+.CardsContainer .card h2{
+    font-size: 20px;
+    padding-bottom: 30px;;
+    padding-top: 10px;
+}
+
+.CardsContainer .card img{
+    background-color: #FFFFFF;
+    width: 50px;
+    height:auto;
+    border-radius: 5px;
+}
+
+
+/* About Me Styles */
+
+.AboutMeContainer{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    flex-direction:row;
+    padding: 50px 40px 50px 40px;
+}
+
+.AboutMeContainer .MyImage{
+    padding-right: 2vw;
+}
+.AboutMeContainer .MyText{
+    padding-left: 2vw;
+}
+
+.AboutMeContainer .MyText h4:last-child{
+    padding-top: 2vw;
+}
+
+
+/* My Portfolio Styles  */
+
+.PortfolioHeader{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.PortfolioHeader button {
+    background-color: #E62872;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto";
+    border-color: #000;
+    border-radius: 3px;
+    width: 154px;
+    border-width: 1px;
+    
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.PortfolioHeader button h4{
+    font-size: 14px;
+}
+
+.PortfolioHeader button img{
+    padding-right: 10px;
+    width:30px;
+    height:auto;
+}
+
+.PortfolioCards{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:30px;
+}
+
+.PortfolioCards .cards{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:460px;
+    box-shadow: 0 0 0.5vw rgba(0, 0, 0, 0.3); /* Add a box shadow */
+}
+
+.PortfolioCards img{
+    width:auto;
+    height:auto;
+}
+
+.PortfolioCards h2,
+.PortfolioCards h4,
+.PortfolioCards button{
+    margin: 1vw;
+}
+
+.PortfolioCards button{
+    color: #1C1E53;
+    text-align: left;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    border-radius: 0px;
+    border-color: #5E3BEE;
+}
+
+/* Customer Testimonials Styles */
+
+.TestimonialContainer{
+    padding: 50px 40px 50px 40px;
+    background-color: #F5FCFF;
+}
+
+.TestimonialCards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.TestimonialCards .cards{
+    margin: 5vw 2vw 0vw 2vw;
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 0.5208vw;
+    border: 0.15vw solid #006B6A;
+}
+.TestimonialCards .cards:first-child{
+    margin-left: 0;
+}
+.TestimonialCards .cards:last-child{
+    margin-right: 0;
+}
+
+.TestimonialCards .cards h4{
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.TestimonialCards .cards img{
+    width:150px;
+    height:auto;
+}
+
+.TestimonialCards .cards .PersonInfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TestimonialCards .cards .PersonInfo img{
+    width:76px;
+    height:auto;
+}
+
+.TestimonialCards .cards .PersonInfo .NameOccupation h4{
+    margin: 0.5vw;
+}
+
+
+/* Contact Me Styles  */
+
+.Contact-Me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding-top: 100px;
+}
+
+.Section-Title h3,
+.Section-Title h2 {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: 100%; 
+    margin: 0 auto; 
+    margin-top:50px;
+}
+
+.form-group,
+.name-group {
+    margin-bottom: 10px;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-group .form-group {
+    width: calc(50% - 7.5px);
+}
+
+.topic-group{
+    margin-left: 20px;
+    margin-right:20px;;
+}
+
+.topic-group .form-group {
+    width: calc(100% - 15px);
+}
+
+.message-group{
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.message-group .form-group{
+    width: calc(100% - 38px);
+}
+
+.contact-info-group {
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.contact-info-group .form-group {
+    width: calc(50% - 7.5px);
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size:16px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #5E3BEE;
+    resize: none;
+}
+
+select{
+    background-color: #FFFFFF;
+}
+
+.checkbox-group{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+
+.checkbox-group .form-group{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.form-group input[type="checkbox"].custom-checkbox {
+    width: 25px;
+    height: 25px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #999;
+    border-radius: 3px; 
+    outline: none;
+    cursor: pointer; 
+}
+
+
+.form-group input[type="checkbox"].custom-checkbox:checked {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+.form-group label {
+    vertical-align: middle; 
+    margin-left: 5px; 
+}
+
+
+
+.button-group .form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topic{
+    font-size: 16px;
+}
+
+#message{
+    font-size:16px;
+}
+
+/* Footer Styles */
+
+footer{
+    background-color: #F5FCFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:row;
+    margin:50px 40px 50px 40px;
+    background-color: #F5FCFF; 
+    width: calc(100% - 70px);
+}
+
+.footer-up img {
+    height: 35px;
+    width: auto;
+}
+
+.footer-up ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-up ul li {
+    margin: 0 10px;
+}
+
+.footer-up ul li a {
+    color: #1C1E53;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.footer-up .social-media img{
+    width:20px;
+    height:20px;
+    margin-left: 10px;
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5FCFF; 
+    border-top: 1px solid #1C1E53;
+    margin-bottom:50px;
+    padding-top:25px;
+    width: calc(100% - 75px);
+}
+
+.footer-down ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0px;
+    margin:0px;
+}
+.footer-down ul li{
+    margin: 0 10px;
+}
+.footer-down ul li a{
+    color: #1C1E53;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:1460px){
+
+    /* Portfolio */
+    .PortfolioCards{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .PortfolioCards .cards{
+        margin-top: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:920px) {
+    /* Home Page */
+
+    .HomePageContainer{
+        flex-direction:column;
+        align-items: center;
+    }
+    .MyText {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:30px;
+    }
+
+    .MyText h1,
+    .MyText h4{
+        text-align: center;
+    }
+    .MyImage img{
+        width: 400px;
+    }
+
+
+    /* My Expertise */
+
+    .SkillsContainer .HeaderText{
+        text-align: center;
+    }
+
+    .CardsContainer{
+        flex-wrap: wrap;
+    }
+    
+    .CardsContainer .card{
+        width:45%;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin:0;
+        margin-bottom: 40px;
+    }
+
+
+    /* Customer Testimonials */
+
+    .TestimonialCards{
+        flex-direction: column;
+    }
+
+    .TestimonialCards .cards{
+        margin:0;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    /* Contact Me */
+
+    .name-form-group .name-group,
+    .contact-info-group{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .name-form-group .name-group .form-group,
+    .contact-info-group .form-group{
+        width: calc(100% - 40px);
+    }
+
+    /* Foooter */
+    .footer-up {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .footer-up ul{
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+
+    .TestimonialHeader{
+        text-align: center;
+    }
+}
+
+
+
+@media only screen and (max-width:820px){
+
+    /* Header */
+    header{
+        height:200px;
+    }
+    
+    header .Navbar{
+        flex-direction:column;
+    }
+
+    header .Navbar img{
+        margin-top: 10px;
+    }
+    header .Navbar ul{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+    header .Navbar button{
+        margin-bottom:10px;
+    }
+
+
+    /* About Me */
+
+    .AboutMeContainer{
+        align-items: center;
+        flex-direction:column;
+    }
+
+    .AboutMeContainer .MyText{
+        margin-top:30px;
+    }
+
+    .AboutMeContainer .MyImage{
+        padding: 0;
+    }
+
+    .AboutMeContainer .MyImage img{
+        width: 330px;
+        background-size: cover;
+    }
+
+    /* Footer */
+
+    .footer-up ul li a{
+        font-size: 10px;
+        line-height: 0;
+    }
+
+    .footer-down ul li a{
+        font-size: 10px;
+        line-height: 0;
+    }
+
+}
+
+@media only screen and (max-width:600px){
+    /* Home */
+
+    .HomePage .MyImage{
+        width:100%;
+    }
+
+    .HomePage .MyImage img{
+        width:100%;
+    }
+
+    /* My portfolio */
+
+    .PortfolioHeader{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .PortfolioHeader button{
+        margin-top: 20px;
+    }
+
+    .PortfolioCards .cards{
+        width:70vw;
+    }
+
+    /* Testimonials */
+
+    .TestimonialHeader h1{
+        font-size: 50px;
+    }
+
+}
